@@ -12,7 +12,7 @@ require (
 	github.com/p9c/chaincfg v0.0.1
 	github.com/p9c/chainhash v0.0.1
 	github.com/p9c/logi v0.0.12
-	github.com/p9c/pod v0.2.19
+	github.com/p9c/pod v0.2.20
 	github.com/p9c/wire v0.0.1
 	golang.org/x/crypto v0.0.0-20200311171314-f7b00557c8c4
 )
