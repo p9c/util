@@ -8,7 +8,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/kkdai/bstream v1.0.0
-	github.com/p9c/chain v0.0.4
+	github.com/p9c/chain v0.0.5
 	github.com/p9c/chaincfg v0.0.1
 	github.com/p9c/chainhash v0.0.1
 	github.com/p9c/logi v0.0.12
