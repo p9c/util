@@ -78,6 +78,7 @@ github.com/p9c/ring v0.0.1/go.mod h1:rbvVs8VVotukWkCnno91C0NNvtrY6VMoz7Wv1eF1a8s
 github.com/p9c/rpc v0.0.1/go.mod h1:1V4YCPRbk7WXALDB5UI7lY79WBgfZKdlsyA1/nq83ms=
 github.com/p9c/simplebuffer v0.0.2/go.mod h1:5VvESf7QnywSTkUCrgD8XCBLGySsChRH7PO5WCNBgHk=
 github.com/p9c/transport v0.0.2/go.mod h1:1g0WWxkE5OEXkN4Y1y/KAZL4h7eJpnLOsIqb8W2+t+Q=
+github.com/p9c/util v0.0.1 h1:a4j7jhoceA+kSQ5jTkZMZNQ5WpxYEZa/uluS4rntnIE=
 github.com/p9c/util v0.0.1/go.mod h1:30UiAgfs00SjoPw50VtQMj9QlvUSalw7oKYrYQgmQi4=
 github.com/p9c/wire v0.0.1 h1:r7AbdbKUpTDM4aLaEA7mkbbp6Wr1EroKsGlzTBkVs1M=
 github.com/p9c/wire v0.0.1/go.mod h1:h4hrfEay5AqZinex9Os1pSRuR3yT1TWAU7+Mq3uM8hI=
