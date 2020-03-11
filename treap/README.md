@@ -1,7 +1,6 @@
 # treap
 
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/p9c/pod/database/internal/treap?status.png)](http://godoc.org/github.com/p9c/pod/database/internal/treap)
+[![GoDoc](https://godoc.org/github.com/p9c/util/treap?status.png)](http://godoc.org/github.com/p9c/util/treap)
 
 Package treap implements a treap data structure that is used to hold ordered key/value pairs using a combination of binary search tree and heap semantics.
 
@@ -12,6 +11,3 @@ The immutable variant works by creating a new version of the treap for all mutat
 
 This package is only used internally in the database code and as such is not available for use outside of it.
 
-## License
-
-Package treap is licensed under the [copyfree](http://copyfree.org) ISC License.

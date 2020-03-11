@@ -3,9 +3,10 @@ package bloom
 import (
 	log "github.com/p9c/logi"
 
-	blockchain "github.com/p9c/pod/pkg/chain"
-	chainhash "github.com/p9c/chainhash"
+	blockchain "github.com/p9c/chain"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/wire"
+
 	"github.com/p9c/util"
 )
 

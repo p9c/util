@@ -9,9 +9,10 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
+	txscript "github.com/p9c/chain/tx/script"
 	"github.com/p9c/chaincfg/netparams"
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
+	"github.com/p9c/chainhash"
+
 	"github.com/p9c/util"
 	ec "github.com/p9c/util/elliptic"
 )

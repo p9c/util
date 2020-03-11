@@ -1,7 +1,6 @@
 # hdkeychain
 
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/p9c/pod/util/hdkeychain)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/p9c/util/hdkeychain)
 
 Package hdkeychain provides an API for bitcoin hierarchical deterministic extended keys (BIP0032).
 
@@ -33,13 +32,13 @@ $ go get -u github.com/p9c/util/hdkeychain
 
 ## Examples
 
-- [NewMaster Example](http://godoc.org/github.com/p9c/pod/util/hdkeychain#example-NewMaster)  
+- [NewMaster Example](http://godoc.org/github.com/p9c/util/hdkeychain#example-NewMaster)  
   Demonstrates how to generate a cryptographically random seed then use it to create a new master node (extended key).
 
-- [Default Wallet Layout Example](http://godoc.org/github.com/p9c/pod/util/hdkeychain#example-package--DefaultWalletLayout)  
+- [Default Wallet Layout Example](http://godoc.org/github.com/p9c/util/hdkeychain#example-package--DefaultWalletLayout)  
   Demonstrates the default hierarchical deterministic wallet layout as described in BIP0032.
 
-- [Audits Use Case Example](http://godoc.org/github.com/p9c/pod/util/hdkeychain#example-package--Audits)  
+- [Audits Use Case Example](http://godoc.org/github.com/p9c/util/hdkeychain#example-package--Audits)  
   Demonstrates the audits use case in BIP0032.
 
 ## License

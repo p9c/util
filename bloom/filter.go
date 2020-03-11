@@ -2,13 +2,15 @@ package bloom
 
 import (
 	"encoding/binary"
-	log "github.com/p9c/logi"
 	"math"
 	"sync"
 
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
+	log "github.com/p9c/logi"
+
+	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/wire"
+
 	"github.com/p9c/util"
 )
 
@@ -99,7 +101,7 @@ func (bf *Filter) matches(data []byte) bool {
 	// The bloom filter does not contain the data if any of the bit offsets which result from hashing the data using each independent hash  are not set.  The shifts and masks below are a faster equivalent of:
 	//   arrayIndex := idx / 8     (idx >> 3)
 	//   bitOffset := idx % 8      (idx & 7)
-	///  if filter[arrayIndex] & 1<<bitOffset == 0 { ... }
+	// /  if filter[arrayIndex] & 1<<bitOffset == 0 { ... }
 	for i := uint32(0); i < bf.msgFilterLoad.HashFuncs; i++ {
 		idx := bf.hash(i, data)
 		if bf.msgFilterLoad.Filter[idx>>3]&(1<<(idx&7)) == 0 {
@@ -142,7 +144,7 @@ func (bf *Filter) add(data []byte) {
 	// Adding data to a bloom filter consists of setting all of the bit offsets which result from hashing the data using each independent hash function.  The shifts and masks below are a faster equivalent of:
 	//   arrayIndex := idx / 8    (idx >> 3)
 	//   bitOffset := idx % 8     (idx & 7)
-	///  filter[arrayIndex] |= 1<<bitOffset
+	// /  filter[arrayIndex] |= 1<<bitOffset
 	// editors note: most CPUs now implement power of two multiplication and division as shifts anyway
 	for i := uint32(0); i < bf.msgFilterLoad.HashFuncs; i++ {
 		idx := bf.hash(i, data)

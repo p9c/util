@@ -3,12 +3,14 @@ package builder
 import (
 	"crypto/rand"
 	"fmt"
-	log "github.com/p9c/logi"
 	"math"
 
-	chainhash "github.com/p9c/chainhash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
+	log "github.com/p9c/logi"
+
+	txscript "github.com/p9c/chain/tx/script"
+	"github.com/p9c/chainhash"
 	"github.com/p9c/wire"
+
 	"github.com/p9c/util/gcs"
 )
 

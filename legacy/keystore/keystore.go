@@ -22,9 +22,9 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
+	txscript "github.com/p9c/chain/tx/script"
 	"github.com/p9c/chaincfg/netparams"
 	"github.com/p9c/chainhash"
-	txscript "github.com/p9c/pod/pkg/chain/tx/script"
 	"github.com/p9c/wire"
 
 	"github.com/p9c/util"
